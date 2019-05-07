@@ -24,7 +24,7 @@ public:
 		///
 		/// Load a string of HTML.
 		///
-		m_view->LoadURL("https://items.projectceleste.com/");
+		m_view->LoadURL("https://celeste-search.netlify.com");
 	}
 
 	virtual ~MyApp() {}
