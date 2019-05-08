@@ -73,6 +73,8 @@ int main(int argc, char* argv[]) {
 		MyApp app(shared_renderer);
 		app.Run();
 
+		shared_renderer->PurgeMemory();
+
 		std::this_thread::sleep_for(std::chrono::milliseconds(500));
 	}
 	
